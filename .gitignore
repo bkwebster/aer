@@ -10,6 +10,9 @@
 # production
 /build
 /dist
+*.dmg
+*.zip
+*.app
 
 # debug
 npm-debug.log*
@@ -26,3 +29,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# electron
+/dist/
+/release/
+*.asar
